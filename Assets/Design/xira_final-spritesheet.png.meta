@@ -1,0 +1,1793 @@
+fileFormatVersion: 2
+guid: b488cb2da1cfff24083d186912ff6996
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7401835117240708478
+    second: xira_final-spritesheet_0
+  - first:
+      213: 4930435290761758367
+    second: xira_final-spritesheet_1
+  - first:
+      213: -972520120859777863
+    second: xira_final-spritesheet_2
+  - first:
+      213: -8883233328801549771
+    second: xira_final-spritesheet_3
+  - first:
+      213: -1576746099973376138
+    second: xira_final-spritesheet_4
+  - first:
+      213: 7090334656038350354
+    second: xira_final-spritesheet_5
+  - first:
+      213: -4486802367352482406
+    second: xira_final-spritesheet_6
+  - first:
+      213: 6546050812244633431
+    second: xira_final-spritesheet_7
+  - first:
+      213: -1013832315969515472
+    second: xira_final-spritesheet_8
+  - first:
+      213: 8074718941943072930
+    second: xira_final-spritesheet_9
+  - first:
+      213: 1934703388739324572
+    second: xira_final-spritesheet_10
+  - first:
+      213: -2967150779556089661
+    second: xira_final-spritesheet_11
+  - first:
+      213: 7681135860127385534
+    second: xira_final-spritesheet_12
+  - first:
+      213: 4995954357023949319
+    second: xira_final-spritesheet_13
+  - first:
+      213: -9141357388377533567
+    second: xira_final-spritesheet_14
+  - first:
+      213: 2282043612929665077
+    second: xira_final-spritesheet_15
+  - first:
+      213: 2971148446138164626
+    second: xira_final-spritesheet_16
+  - first:
+      213: 2427499092040289819
+    second: xira_final-spritesheet_17
+  - first:
+      213: 652767537690014165
+    second: xira_final-spritesheet_18
+  - first:
+      213: 5674552378163003541
+    second: xira_final-spritesheet_19
+  - first:
+      213: -8127325444849611889
+    second: xira_final-spritesheet_20
+  - first:
+      213: 6971357478454567064
+    second: xira_final-spritesheet_21
+  - first:
+      213: -3779991773834001349
+    second: xira_final-spritesheet_22
+  - first:
+      213: -7230355130468252866
+    second: xira_final-spritesheet_23
+  - first:
+      213: 8529149534236484068
+    second: xira_final-spritesheet_24
+  - first:
+      213: -3726978394990704195
+    second: xira_final-spritesheet_25
+  - first:
+      213: -5146028244632998167
+    second: xira_final-spritesheet_26
+  - first:
+      213: 7215802951183650465
+    second: xira_final-spritesheet_27
+  - first:
+      213: -4506706648965317379
+    second: xira_final-spritesheet_28
+  - first:
+      213: -7132384759765530869
+    second: xira_final-spritesheet_29
+  - first:
+      213: 6877561329395273047
+    second: xira_final-spritesheet_30
+  - first:
+      213: 2079687561404444691
+    second: xira_final-spritesheet_31
+  - first:
+      213: 407478485285143288
+    second: xira_final-spritesheet_32
+  - first:
+      213: -8860168981569719485
+    second: xira_final-spritesheet_33
+  - first:
+      213: 8568132280463066941
+    second: xira_final-spritesheet_34
+  - first:
+      213: 3481847863718188807
+    second: xira_final-spritesheet_35
+  - first:
+      213: -1097369668194242310
+    second: xira_final-spritesheet_36
+  - first:
+      213: -3645100233453647474
+    second: xira_final-spritesheet_37
+  - first:
+      213: -8713870913831904464
+    second: xira_final-spritesheet_38
+  - first:
+      213: 3471550279507457298
+    second: xira_final-spritesheet_39
+  - first:
+      213: 6440821074856200247
+    second: xira_final-spritesheet_40
+  - first:
+      213: 5877102641378600566
+    second: xira_final-spritesheet_41
+  - first:
+      213: 5456284172896589521
+    second: xira_final-spritesheet_42
+  - first:
+      213: -5014535363927663168
+    second: xira_final-spritesheet_43
+  - first:
+      213: 3088080804652807630
+    second: xira_final-spritesheet_44
+  - first:
+      213: -5821636555124161955
+    second: xira_final-spritesheet_45
+  - first:
+      213: -7525631082790799873
+    second: xira_final-spritesheet_46
+  - first:
+      213: -6595977226723399573
+    second: xira_final-spritesheet_47
+  - first:
+      213: 7806724528622873681
+    second: xira_final-spritesheet_48
+  - first:
+      213: 6924884321545716665
+    second: xira_final-spritesheet_49
+  - first:
+      213: 4532574743460159665
+    second: xira_final-spritesheet_50
+  - first:
+      213: 3271374140416334693
+    second: xira_final-spritesheet_51
+  - first:
+      213: -826263874462286343
+    second: xira_final-spritesheet_52
+  - first:
+      213: 2270770934040266426
+    second: xira_final-spritesheet_53
+  - first:
+      213: 4819281032846082319
+    second: xira_final-spritesheet_54
+  - first:
+      213: 3565744317607068080
+    second: xira_final-spritesheet_55
+  - first:
+      213: 1597240398237455353
+    second: xira_final-spritesheet_56
+  - first:
+      213: -462004912115255906
+    second: xira_final-spritesheet_57
+  - first:
+      213: -8283365777285129019
+    second: xira_final-spritesheet_58
+  - first:
+      213: 3517722622302329841
+    second: xira_final-spritesheet_59
+  - first:
+      213: -2289158786252896580
+    second: xira_final-spritesheet_60
+  - first:
+      213: 6752683639264466905
+    second: xira_final-spritesheet_61
+  - first:
+      213: 2513877327851982922
+    second: xira_final-spritesheet_62
+  - first:
+      213: -8826279999145403276
+    second: xira_final-spritesheet_63
+  - first:
+      213: -4516319262310028772
+    second: xira_final-spritesheet_64
+  - first:
+      213: 3857719041301155721
+    second: xira_final-spritesheet_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xira_final-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 269
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2821bde6d26674990800000000000000
+      internalID: -7401835117240708478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 269
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9687ed36cc6c6440800000000000000
+      internalID: 4930435290761758367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 269
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4ab3b4a1ae082f0800000000000000
+      internalID: -972520120859777863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 269
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5327fd35a5a68b480800000000000000
+      internalID: -8883233328801549771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 269
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677ba1aa6c54e1ae0800000000000000
+      internalID: -1576746099973376138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 268
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eaecfadcde56260800000000000000
+      internalID: 7090334656038350354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 273
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95d29cd40dabb1c0800000000000000
+      internalID: -4486802367352482406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 219
+        width: 30
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757af71088e38da50800000000000000
+      internalID: 6546050812244633431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 269
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03053d051e42ee1f0800000000000000
+      internalID: -1013832315969515472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 268
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a882a3981a2f0070800000000000000
+      internalID: 8074718941943072930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 273
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a4d874b7279da10800000000000000
+      internalID: 1934703388739324572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 271
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0398d261092d6d0800000000000000
+      internalID: -2967150779556089661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 219
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7486e4e50e89a60800000000000000
+      internalID: 7681135860127385534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 219
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7024a7c9402355540800000000000000
+      internalID: 4995954357023949319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 221
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1835dd463ef532180800000000000000
+      internalID: -9141357388377533567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 225
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5382f9e33927baf10800000000000000
+      internalID: 2282043612929665077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 228
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295e40b15c3ab3920800000000000000
+      internalID: 2971148446138164626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 219
+        width: 13
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e05a1109530b120800000000000000
+      internalID: 2427499092040289819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 219
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d17be4fd981f0900800000000000000
+      internalID: 652767537690014165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 219
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59001c7a25f00ce40800000000000000
+      internalID: 5674552378163003541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 221
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bcebd7190f53f80800000000000000
+      internalID: -8127325444849611889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 225
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8902c89d0bc3fb060800000000000000
+      internalID: 6971357478454567064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 228
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34c9ba4285ca8bc0800000000000000
+      internalID: -3779991773834001349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 179
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e334480215e98ab90800000000000000
+      internalID: -7230355130468252866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 179
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1aa50ef40ad5670800000000000000
+      internalID: 8529149534236484068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 177
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9060965ec174cc0800000000000000
+      internalID: -3726978394990704195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 173
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eee58a8392a598b0800000000000000
+      internalID: -5146028244632998167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 169
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae448a9d8ea32460800000000000000
+      internalID: 7215802951183650465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 169
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcf7892e26f471c0800000000000000
+      internalID: -4506706648965317379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 169
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0704c899dda40d90800000000000000
+      internalID: -7132384759765530869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 169
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d81971791027f50800000000000000
+      internalID: 6877561329395273047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 169
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3107f4581d88cdc10800000000000000
+      internalID: 2079687561404444691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 169
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f209010687a7a500800000000000000
+      internalID: 407478485285143288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 169
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3433a93214b5a0580800000000000000
+      internalID: -8860168981569719485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 169
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d370f85c9ee18e670800000000000000
+      internalID: 8568132280463066941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 119
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70710e63f22025030800000000000000
+      internalID: 3481847863718188807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 119
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07ef3d91c55c0f0800000000000000
+      internalID: -1097369668194242310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 119
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e894d4676a00a6dc0800000000000000
+      internalID: -3645100233453647474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 119
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bd07a629c121780800000000000000
+      internalID: -8713870913831904464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 119
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21533fd069c6d2030800000000000000
+      internalID: 3471550279507457298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 119
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73847a484a4626950800000000000000
+      internalID: 6440821074856200247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 119
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676a1efc6b9af8150800000000000000
+      internalID: 5877102641378600566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 119
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6561feb8d98bb40800000000000000
+      internalID: 5456284172896589521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 119
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd157797aac86ab0800000000000000
+      internalID: -5014535363927663168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 119
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5780761211bda20800000000000000
+      internalID: 3088080804652807630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 74
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d524560c564653fa0800000000000000
+      internalID: -5821636555124161955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 119
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5bd9717669f8790800000000000000
+      internalID: -7525631082790799873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e596c8a16674a0800000000000000
+      internalID: -6595977226723399573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 69
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c25e3d89e075c60800000000000000
+      internalID: 7806724528622873681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 69
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b38760d9912a1060800000000000000
+      internalID: 6924884321545716665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 69
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a9dde6b0f6ee30800000000000000
+      internalID: 4532574743460159665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 69
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b1aeeb271466d20800000000000000
+      internalID: 3271374140416334693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 69
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdffe742658884f0800000000000000
+      internalID: -826263874462286343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 69
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab680c92226638f10800000000000000
+      internalID: 2270770934040266426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 69
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f018193d09681e240800000000000000
+      internalID: 4819281032846082319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 69
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b146d290911c7130800000000000000
+      internalID: 3565744317607068080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 69
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3d8ddfda98a2610800000000000000
+      internalID: 1597240398237455353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 69
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9572e0faf0a699f0800000000000000
+      internalID: -462004912115255906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 79
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccda4476b29b0d80800000000000000
+      internalID: -8283365777285129019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb9fa8561671d030800000000000000
+      internalID: 3517722622302329841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb68eee56364b30e0800000000000000
+      internalID: -2289158786252896580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 30
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d753fe1ef956bd50800000000000000
+      internalID: 6752683639264466905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 29
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40968f4c1613e220800000000000000
+      internalID: 2513877327851982922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 30
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c9dcaba11c28580800000000000000
+      internalID: -8826279999145403276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 30
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aa1c53f8fc251c0800000000000000
+      internalID: -4516319262310028772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xira_final-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 24
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f040c670f598530800000000000000
+      internalID: 3857719041301155721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
