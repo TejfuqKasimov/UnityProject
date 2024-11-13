@@ -3,8 +3,8 @@ using System.Collections;
 using UnityEngine;
 
 
-//код с семинара с небольшими доработками,
-// которые решают баг с зависанием игрока при упоре в стену
+//пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ,
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
 
 
 public class CollisionTouchCheck : MonoBehaviour
@@ -12,7 +12,7 @@ public class CollisionTouchCheck : MonoBehaviour
     bool _IsGrounded;
     bool _CanMoveLeft;
     bool _CanMoveRight;
-    PolygonCollider2D collision;
+    BoxCollider2D collision;
     public bool IsGrounded
     {
         get { return _IsGrounded; }
@@ -32,13 +32,13 @@ public class CollisionTouchCheck : MonoBehaviour
 
     void Awake()
     {
-        collision = GetComponent<PolygonCollider2D>();
+        collision = GetComponent<BoxCollider2D>();
     }
 
     [SerializeField]
     ContactFilter2D groundFilter;
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
-    float groundCheckDistance = 0.05f;
+    float groundCheckDistance = 0.5f;
 
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
     float wallCheckDistance = 0.01f;

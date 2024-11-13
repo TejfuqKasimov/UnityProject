@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    Rigidbody2D rb; // кто 
-    System.Random rnd; // семя рандома
-    Vector2 startPosition; // откуда
-    CollisionTouchCheck colTouchCheck; // на земле?
+    Rigidbody2D rb; // пїЅпїЅпїЅ 
+    System.Random rnd; // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    Vector2 startPosition; // пїЅпїЅпїЅпїЅпїЅпїЅ
+    CollisionTouchCheck colTouchCheck; // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?
 
-    public float speed = 2;  //  как быстро
-    public float jumpHeight = 2; // как высоко
-    public int frequency = 10; // как часто
-    public float rangeWalking = 10; // как далеко
-    public float rangeFlying = 10; // как далеко
-    private int directionHor = 1; // куда
-    private int directionVert = 1; // куда
+    public float speed = 2;  //  пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public float jumpHeight = 2; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public int frequency = 10; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+    public float rangeWalking = 10; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public float rangeFlying = 10; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    private int directionHor = 1; // пїЅпїЅпїЅпїЅ
+    private int directionVert = 1; // пїЅпїЅпїЅпїЅ
     
     public bool isSaw = false;
     [Range(0, 2)]
@@ -35,10 +35,13 @@ public class EnemyController : MonoBehaviour
     void MoveHor()
     {
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
-        if (System.Math.Abs(transform.position.x - startPosition.x) >= (rangeWalking / 2))
-
+        if (transform.position.x - startPosition.x >= (rangeWalking / 2))
         {
-            directionHor *= -1;
+            directionHor = -1;
+        }
+        if (transform.position.x - startPosition.x <= (-1) * (rangeWalking / 2))
+        {
+            directionHor = 1;
         }
     }
 
@@ -51,9 +54,10 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+
     void Jump()
     {
-        if (colTouchCheck.IsGrounded) // хехе)))))
+        if (colTouchCheck.IsGrounded) // пїЅпїЅпїЅпїЅ)))))
         {
             int rnd1 = rnd.Next(frequency);
             int rnd2 = rnd.Next(frequency);
@@ -62,6 +66,9 @@ public class EnemyController : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y + jumpHeight);
             }
+            //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+            //rb.AddForce(Vector2.up * jumpHeight);
+
         }
     }
 
