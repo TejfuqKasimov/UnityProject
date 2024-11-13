@@ -130,13 +130,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38f9bd5fe995d7438758234fe81c1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 10
   jumpHeight: 3
   frequency: 1000
   rangeWalking: 5
   rangeFlying: 10
   isSaw: 0
-  isVertical: 1
+  isVertical: 2
 --- !u!114 &3677279402351917314
 MonoBehaviour:
   m_ObjectHideFlags: 0

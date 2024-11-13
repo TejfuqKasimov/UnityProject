@@ -1785,7 +1785,73 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      xira_final-spritesheet_0: -7401835117240708478
+      xira_final-spritesheet_1: 4930435290761758367
+      xira_final-spritesheet_10: 1934703388739324572
+      xira_final-spritesheet_11: -2967150779556089661
+      xira_final-spritesheet_12: 7681135860127385534
+      xira_final-spritesheet_13: 4995954357023949319
+      xira_final-spritesheet_14: -9141357388377533567
+      xira_final-spritesheet_15: 2282043612929665077
+      xira_final-spritesheet_16: 2971148446138164626
+      xira_final-spritesheet_17: 2427499092040289819
+      xira_final-spritesheet_18: 652767537690014165
+      xira_final-spritesheet_19: 5674552378163003541
+      xira_final-spritesheet_2: -972520120859777863
+      xira_final-spritesheet_20: -8127325444849611889
+      xira_final-spritesheet_21: 6971357478454567064
+      xira_final-spritesheet_22: -3779991773834001349
+      xira_final-spritesheet_23: -7230355130468252866
+      xira_final-spritesheet_24: 8529149534236484068
+      xira_final-spritesheet_25: -3726978394990704195
+      xira_final-spritesheet_26: -5146028244632998167
+      xira_final-spritesheet_27: 7215802951183650465
+      xira_final-spritesheet_28: -4506706648965317379
+      xira_final-spritesheet_29: -7132384759765530869
+      xira_final-spritesheet_3: -8883233328801549771
+      xira_final-spritesheet_30: 6877561329395273047
+      xira_final-spritesheet_31: 2079687561404444691
+      xira_final-spritesheet_32: 407478485285143288
+      xira_final-spritesheet_33: -8860168981569719485
+      xira_final-spritesheet_34: 8568132280463066941
+      xira_final-spritesheet_35: 3481847863718188807
+      xira_final-spritesheet_36: -1097369668194242310
+      xira_final-spritesheet_37: -3645100233453647474
+      xira_final-spritesheet_38: -8713870913831904464
+      xira_final-spritesheet_39: 3471550279507457298
+      xira_final-spritesheet_4: -1576746099973376138
+      xira_final-spritesheet_40: 6440821074856200247
+      xira_final-spritesheet_41: 5877102641378600566
+      xira_final-spritesheet_42: 5456284172896589521
+      xira_final-spritesheet_43: -5014535363927663168
+      xira_final-spritesheet_44: 3088080804652807630
+      xira_final-spritesheet_45: -5821636555124161955
+      xira_final-spritesheet_46: -7525631082790799873
+      xira_final-spritesheet_47: -6595977226723399573
+      xira_final-spritesheet_48: 7806724528622873681
+      xira_final-spritesheet_49: 6924884321545716665
+      xira_final-spritesheet_5: 7090334656038350354
+      xira_final-spritesheet_50: 4532574743460159665
+      xira_final-spritesheet_51: 3271374140416334693
+      xira_final-spritesheet_52: -826263874462286343
+      xira_final-spritesheet_53: 2270770934040266426
+      xira_final-spritesheet_54: 4819281032846082319
+      xira_final-spritesheet_55: 3565744317607068080
+      xira_final-spritesheet_56: 1597240398237455353
+      xira_final-spritesheet_57: -462004912115255906
+      xira_final-spritesheet_58: -8283365777285129019
+      xira_final-spritesheet_59: 3517722622302329841
+      xira_final-spritesheet_6: -4486802367352482406
+      xira_final-spritesheet_60: -2289158786252896580
+      xira_final-spritesheet_61: 6752683639264466905
+      xira_final-spritesheet_62: 2513877327851982922
+      xira_final-spritesheet_63: -8826279999145403276
+      xira_final-spritesheet_64: -4516319262310028772
+      xira_final-spritesheet_65: 3857719041301155721
+      xira_final-spritesheet_7: 6546050812244633431
+      xira_final-spritesheet_8: -1013832315969515472
+      xira_final-spritesheet_9: 8074718941943072930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

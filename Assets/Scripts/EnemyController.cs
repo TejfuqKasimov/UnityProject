@@ -2,23 +2,23 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    Rigidbody2D rb; // ��� 
-    System.Random rnd; // ���� �������
-    Vector2 startPosition; // ������
-    CollisionTouchCheck colTouchCheck; // �� �����?
+    Rigidbody2D rb; 
+    System.Random rnd; 
+    Vector2 startPosition;
+    CollisionTouchCheck colTouchCheck;
 
-    public float speed = 2;  //  ��� ������
-    public float jumpHeight = 2; // ��� ������
-    public int frequency = 10; // ��� �����
-    public float rangeWalking = 10; // ��� ������
-    public float rangeFlying = 10; // ��� ������
-    private int directionHor = 1; // ����
-    private int directionVert = 1; // ����
+    public float speed = 2;    
+    public float jumpHeight = 2;   
+    public int frequency = 10; 
+    public float rangeWalking = 10; 
+    public float rangeFlying = 10;   
+    private int directionHor = 1; 
+    private int directionVert = 1; 
     
     public bool isSaw = false;
     [Range(0, 2)]
-    public int isVertical = 1;
-    
+    public int isVertical = 0;
+
     void Awake()
     {
         rnd = new System.Random();
@@ -48,16 +48,20 @@ public class EnemyController : MonoBehaviour
     void MoveVert()
     {
         transform.position += directionVert * Vector3.up * speed * Time.deltaTime;
-        if (System.Math.Abs(transform.position.y - startPosition.y) >= (rangeFlying / 2))
+        if (transform.position.y - startPosition.y >= (rangeFlying / 2))
         {
-            directionVert *= -1;
+            directionVert = -1;
+        }
+        if (transform.position.y - startPosition.y <= (-1) * (rangeFlying / 2))
+        {
+            directionVert = 1;
         }
     }
 
 
     void Jump()
     {
-        if (colTouchCheck.IsGrounded) // ����)))))
+        if (colTouchCheck.IsGrounded) 
         {
             int rnd1 = rnd.Next(frequency);
             int rnd2 = rnd.Next(frequency);
@@ -66,12 +70,11 @@ public class EnemyController : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y + jumpHeight);
             }
-            //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
-            //rb.AddForce(Vector2.up * jumpHeight);
+
 
         }
     }
-
+   
     void FixedUpdate()
     {
         if (isSaw)
