@@ -44,10 +44,10 @@ public class EnemyController : MonoBehaviour
             IsFasingRight = false;
         }
         m_SpriteRenderer.flipX = IsFasingRight;
-        Debug.Log("reverse");
     }
     void MoveHorizontal()
     {
+        Debug.Log(directionHor);
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
         if (transform.position.x - startPosition.x >= (rangeWalking / 2))
         {
