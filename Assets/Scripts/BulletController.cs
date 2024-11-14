@@ -24,6 +24,10 @@ public class BulletController : MonoBehaviour
     {
         direction = dir;
     }
+    public bool getDam()
+    { 
+        return doDamage;
+    }
 
     // collision -> destroy
     private void OnTriggerEnter2D(UnityEngine.Collider2D collision)
