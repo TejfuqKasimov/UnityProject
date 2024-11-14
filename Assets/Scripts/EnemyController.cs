@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     public float rangeWalking = 10;    // how far horizontal
     public float rangeFlying = 10;     // how far vertical
     private float directionHor=1;
-    bool IsFasingRight;                // checker for reverse
+    bool IsFasingRight = true;                // checker for reverse
     SpriteRenderer m_SpriteRenderer;   // for reversing while move
     private float directionVert=1; 
     public bool isSaw = false;
@@ -35,15 +35,30 @@ public class EnemyController : MonoBehaviour
     }
     void Reverse()
     {
-        if (!IsFasingRight && directionHor < 0)
+        if (speed > 0)
         {
-            IsFasingRight = true;
+            if (!IsFasingRight && directionHor < 0)
+            {
+                IsFasingRight = true;
+            }
+            else if (IsFasingRight && directionHor > 0)
+            {
+                IsFasingRight = false;
+            }
+            m_SpriteRenderer.flipX = IsFasingRight;
         }
-        else if (IsFasingRight && directionHor > 0)
+        else
         {
-            IsFasingRight = false;
+            if (!IsFasingRight && directionHor > 0)
+            {
+                IsFasingRight = true;
+            }
+            else if (IsFasingRight && directionHor < 0)
+            {
+                IsFasingRight = false;
+            }
+            m_SpriteRenderer.flipX = IsFasingRight;
         }
-        m_SpriteRenderer.flipX = IsFasingRight;
     }
     void MoveHorizontal()
     {
