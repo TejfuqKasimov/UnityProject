@@ -144,8 +144,8 @@ public class PlayerController: MonoBehaviour
             Move();
             IsJumping();
             Reverse();
-            PlayerFalls();    
         }
+        PlayerFalls();
         PlayerResurection();
     }
 }
