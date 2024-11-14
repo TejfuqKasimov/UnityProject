@@ -136,8 +136,6 @@ public class PlayerController: MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(rb.linearVelocity.y);
-        Debug.Log(string.Format( " Jump  {0}",isJumping));
         anim.SetBool("Alive", Alive);
         if (Alive)
         {
