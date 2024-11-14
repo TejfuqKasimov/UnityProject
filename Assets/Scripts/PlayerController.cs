@@ -12,7 +12,6 @@ public class PlayerController: MonoBehaviour
 
     Rigidbody2D rb;
     public Animator anim;
-    bool IsFasingRight
     CollisionTouchCheck colTouchCheck; // checker for moving
     SpriteRenderer m_SpriteRenderer;   // for reversing while move
     Vector2 startPosition;             // for start over
