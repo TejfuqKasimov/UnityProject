@@ -11,6 +11,7 @@ public class PlayerController: MonoBehaviour
 
     GameObject Player;
     Rigidbody2D rb;
+    public Animator anim;
     CollisionTouchCheck colTouchCheck;
     SpriteRenderer m_SpriteRenderer;
     public float Gravity = 0.3f;
@@ -40,6 +41,7 @@ public class PlayerController: MonoBehaviour
     public void onMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+        anim.SetFloat("Move_X", Mathf.Abs(moveInput.x));
     }
 
     [SerializeField]
@@ -77,6 +79,7 @@ public class PlayerController: MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         colTouchCheck = GetComponent<CollisionTouchCheck>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     private void Start()

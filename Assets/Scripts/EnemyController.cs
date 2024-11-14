@@ -7,12 +7,14 @@ public class EnemyController : MonoBehaviour
     Vector2 startPosition; // for moveing around this point
     CollisionTouchCheck colTouchCheck; 
 
-    public float speed = 2;   // how fast
-    public float jumpHeight = 2;   // how high
-    public int frequency = 10;  // how frequently
-    public float rangeWalking = 10; // how far horizontal
-    public float rangeFlying = 10;   // how far vertical
-    private int directionHor = 1; 
+    public float speed = 2;            // how fast
+    public float jumpHeight = 2;       // how high
+    public int frequency = 10;         // how frequently
+    public float rangeWalking = 10;    // how far horizontal
+    public float rangeFlying = 10;     // how far vertical
+    private int directionHor = 1;
+    bool IsFasingRight;                // checker for reverse
+    SpriteRenderer m_SpriteRenderer;   // for reversing while move
     private int directionVert = 1; 
     public bool isSaw = false;
     [Range(0, 2)]
@@ -20,6 +22,7 @@ public class EnemyController : MonoBehaviour
 
     void Awake()
     {
+        m_SpriteRenderer = GetComponent<SpriteRenderer>();
         rnd = new System.Random();
         startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
@@ -30,7 +33,19 @@ public class EnemyController : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Kinematic;
         }
     }
-
+    void Reverse()
+    {
+        if (!IsFasingRight && directionHor < 0)
+        {
+            IsFasingRight = true;
+        }
+        else if (IsFasingRight && directionHor > 0)
+        {
+            IsFasingRight = false;
+        }
+        m_SpriteRenderer.flipX = IsFasingRight;
+        Debug.Log("reverse");
+    }
     void MoveHorizontal()
     {
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
@@ -94,6 +109,7 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
+            Reverse();
             MoveHorizontal();
             Jump();
         }
