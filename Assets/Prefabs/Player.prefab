@@ -137,7 +137,7 @@ Animator:
   m_GameObject: {fileID: 7827010619102391538}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a6b680836cca5e408cd6aab8c6abcc4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e3950312bc6ead4c95e2bb53801c6fd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -214,16 +214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd495b81057497247bbb5e800023bc0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gravity: 0.5
-  PlayerPrefab: {fileID: 0}
-  jumpImpulse: 720
-  onGround: 0
-  GroundCheck: {fileID: 0}
-  Ground:
-    serializedVersion: 2
-    m_Bits: 0
-  checkRadius: 0.1
+  anim: {fileID: 0}
   moveSpeed: 300
+  jumpImpulse: 720
 --- !u!114 &9156076724772895242
 MonoBehaviour:
   m_ObjectHideFlags: 0

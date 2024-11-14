@@ -20,6 +20,7 @@ public class PlayerController: MonoBehaviour
     bool IsFasingRight;                // checker for reverse
     public float moveSpeed = 300;      // for change player move speed
     public float jumpImpulse = 5;      // for change player jump impulse
+    bool Alive = true;                 // for checking player life status
 
     // for fix multiJumping
     void IsJumping()
@@ -36,6 +37,7 @@ public class PlayerController: MonoBehaviour
         {
             isJumping = 2;
         }
+        anim.SetFloat("Move_Y", rb.linearVelocity.y);
     }
     
     // reverse while moving
@@ -93,12 +95,12 @@ public class PlayerController: MonoBehaviour
     {
         if (collision.CompareTag("Enemy") || collision.CompareTag("Bullet"))
         {
-            transform.position = startPosition;
+            PlayerDead();
         }
     }
     
     //condition for player "death"
-    void PlayerDied()
+    void PlayerFalls()
     {
         if (transform.position.y <= -10)
         {
@@ -107,8 +109,22 @@ public class PlayerController: MonoBehaviour
     }
     
 
-    void Awake()
+    void PlayerDead() 
     {
+        Alive = false;
+    }
+
+    void PlayerResurection()
+    {
+        if (Input.GetKeyDown(KeyCode.R)) 
+        {
+            transform.position = startPosition;
+            Alive = true;
+        }
+    }
+
+    void Awake()
+    {   
         rb = GetComponent<Rigidbody2D>();
         colTouchCheck = GetComponent<CollisionTouchCheck>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
@@ -122,10 +138,14 @@ public class PlayerController: MonoBehaviour
     {
         Debug.Log(rb.linearVelocity.y);
         Debug.Log(string.Format( " Jump  {0}",isJumping));
-        Move();
-        IsJumping();
-        Reverse();
-        PlayerDied();
-
+        anim.SetBool("Alive", Alive);
+        if (Alive)
+        {
+            Move();
+            IsJumping();
+            Reverse();
+            PlayerFalls();    
+        }
+        PlayerResurection();
     }
 }
