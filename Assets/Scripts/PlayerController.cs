@@ -11,6 +11,8 @@ public class PlayerController: MonoBehaviour
 {
 
     Rigidbody2D rb;
+    public Animator anim;
+    bool IsFasingRight
     CollisionTouchCheck colTouchCheck; // checker for moving
     SpriteRenderer m_SpriteRenderer;   // for reversing while move
     Vector2 startPosition;             // for start over
@@ -56,6 +58,7 @@ public class PlayerController: MonoBehaviour
     public void onMove(InputAction.CallbackContext context) 
     {
         moveInput = context.ReadValue<Vector2>();
+        anim.SetFloat("Move_X", Mathf.Abs(moveInput.x));
     }
 
     // modificated lesson code with fix stuck bug when button is being held
@@ -112,6 +115,7 @@ public class PlayerController: MonoBehaviour
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         IsFasingRight = true;
         startPosition = transform.position;
+        anim = GetComponent<Animator>();
     }
 
 
