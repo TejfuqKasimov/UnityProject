@@ -3,10 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 
-//��� � �������� � ���������� �����������,
-// ������� ������ ��� � ���������� ������ ��� ����� � �����
-
-
+// code from practice lesson with modifications 
 public class CollisionTouchCheck : MonoBehaviour
 {
     bool _IsGrounded;
@@ -38,7 +35,7 @@ public class CollisionTouchCheck : MonoBehaviour
     [SerializeField]
     ContactFilter2D groundFilter;
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
-    float groundCheckDistance = 0.5f;
+    float groundCheckDistance = 0.01f;
 
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
     float wallCheckDistance = 0.01f;

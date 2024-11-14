@@ -4,17 +4,16 @@ public class EnemyController : MonoBehaviour
 {
     Rigidbody2D rb; 
     System.Random rnd; 
-    Vector2 startPosition;
-    CollisionTouchCheck colTouchCheck;
+    Vector2 startPosition; // for moveing around this point
+    CollisionTouchCheck colTouchCheck; 
 
-    public float speed = 2;    
-    public float jumpHeight = 2;   
-    public int frequency = 10; 
-    public float rangeWalking = 10; 
-    public float rangeFlying = 10;   
+    public float speed = 2;   // how fast
+    public float jumpHeight = 2;   // how high
+    public int frequency = 10;  // how frequently
+    public float rangeWalking = 10; // how far horizontal
+    public float rangeFlying = 10;   // how far vertical
     private int directionHor = 1; 
     private int directionVert = 1; 
-    
     public bool isSaw = false;
     [Range(0, 2)]
     public int isVertical = 0;
@@ -26,13 +25,13 @@ public class EnemyController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         colTouchCheck = GetComponent<CollisionTouchCheck>();
 
-        if (isSaw)
+        if (isSaw) // for moving without gravity
         {
             rb.bodyType = RigidbodyType2D.Kinematic;
         }
     }
 
-    void MoveHor()
+    void MoveHorizontal()
     {
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
         if (transform.position.x - startPosition.x >= (rangeWalking / 2))
@@ -45,7 +44,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void MoveVert()
+    void MoveVertical()
     {
         transform.position += directionVert * Vector3.up * speed * Time.deltaTime;
         if (transform.position.y - startPosition.y >= (rangeFlying / 2))
@@ -59,7 +58,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    void Jump()
+    void Jump() // for trolling gamers with random jumps
     {
         if (colTouchCheck.IsGrounded) 
         {
@@ -77,25 +76,25 @@ public class EnemyController : MonoBehaviour
    
     void FixedUpdate()
     {
-        if (isSaw)
+        if (isSaw) // conditions for different types of saws
         {
             if (isVertical == 0)
             {
-                MoveHor();
+                MoveHorizontal();
             }
             if (isVertical == 1)
             {
-                MoveVert();
+                MoveVertical();
             }
             if (isVertical == 2)
             {
-                MoveHor();
-                MoveVert();
+                MoveHorizontal();
+                MoveVertical();
             }
         }
         else
         {
-            MoveHor();
+            MoveHorizontal();
             Jump();
         }
     }

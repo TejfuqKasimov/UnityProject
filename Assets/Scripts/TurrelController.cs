@@ -7,21 +7,21 @@ using UnityEngine.PlayerLoop;
 
 public class TurrelController : MonoBehaviour
 {
-    Vector2 turrelSize; // кто
-    GameObject bulletPrefab; // чем
-    Vector2 bulletSize; // каким
-    Vector2 firePoint; // откуда
-    Vector2 direction; // куда
-    Transform player; // в кого
+    Vector2 turrelSize; // who
+    GameObject bulletPrefab; // with what
+    Vector2 bulletSize; // what`s size
+    Vector2 firePoint; // from where
+    Vector2 direction; // where
+    Transform player; // to who
 
-    public bool doDamage = true; // это нью меканикс :)
-    public float fireRate = 1f; // как часто
-    public float fireRange = 10f; // как далеко
-    float nextFireTime = 1f; // когда еще
+    public bool doDamage = true; // for mechanics
+    public float fireRate = 1f; // how frequently
+    public float fireRange = 10f; // fow far
+    float nextFireTime = 1f; // when next
 
 
-     
-    void Shoot() //Инициализация пули с аргументами
+     // initialization bullet with arguments
+    void Shoot() 
     {
         firePoint = (Vector2)transform.position + direction;
         GameObject bullet = Instantiate(bulletPrefab, firePoint, transform.rotation);
@@ -45,16 +45,16 @@ public class TurrelController : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Направление для туррели с учетом длины вектора для нормальной инициализации пули
+        //direction for bullet way with fixing initialization bug
         direction = (player.position - transform.position).normalized * (turrelSize.x/2 + bulletSize.x/2+0.03f);
 
-        // Луч до игрока с игнорированием других пуль нужен чтобы у туррели не было вх)))))
+        // for turrel not have wall hack)))))
         Vector2 raycastOrigin = (Vector2)transform.position  + direction;
         RaycastHit2D hit = Physics2D.Linecast(raycastOrigin, player.position, ~LayerMask.GetMask("Bullet"));
 
         if (hit.collider != null && hit.collider.gameObject.CompareTag("Player"))
         {
-            //Слежка за игроком
+            //observe player
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0, 0, angle);
             
