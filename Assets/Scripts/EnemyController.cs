@@ -62,6 +62,7 @@ public class EnemyController : MonoBehaviour
     }
     void MoveHorizontal()
     {
+        Debug.Log(directionHor);
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
         if ((transform.position.x - startPosition.x) >= (rangeWalking / 2))
         {
