@@ -5,12 +5,10 @@ using System.IO;
 
 public class SaveLoadManager : MonoBehaviour
 {
-
     public static SaveData currentSaveData;
 
     public static void LoadData()
     {
-        
         if (File.Exists(Application.persistentDataPath + "/save.json"))
         {
             string jsonData = File.ReadAllText(Application.persistentDataPath + "/save.json");
@@ -20,6 +18,17 @@ public class SaveLoadManager : MonoBehaviour
         {
             currentSaveData = new SaveData();
         }
+    }
+    public static void NewData(int LevelIndex)
+    {
+        SaveLoadManager.currentSaveData.maxLevelReached = LevelIndex-1;
+        SaveLoadManager.SaveData();
+    }
+
+    public static void UpdateData(int LevelIndex)
+    {
+        SaveLoadManager.currentSaveData.maxLevelReached = System.Math.Max(SaveLoadManager.currentSaveData.maxLevelReached, LevelIndex);
+        SaveLoadManager.SaveData();
     }
 
     public static void SaveData()

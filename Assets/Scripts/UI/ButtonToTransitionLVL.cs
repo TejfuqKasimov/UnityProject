@@ -2,17 +2,23 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ButtonToTransitionLVL : MonoBehaviour
 {
-    public GameObject[] levelButtons; 
-    void Start()
+    public GameObject[] levelButtons;
+    int lenght;
+    void Awake()
     {
+        if (levelButtons != null)
+        {
+            lenght = levelButtons.Length;
+        }
         UpdateButtonStates();
     }
 
     private void UpdateButtonStates()
     {
-    SaveLoadManager.LoadData();
 
-    for (int i = 0; i < levelButtons.Length; i++)
+        SaveLoadManager.LoadData();
+
+        for (int i = 0; i < lenght; i++)
         {
             if (i <= SaveLoadManager.currentSaveData.maxLevelReached)
             {
@@ -27,8 +33,7 @@ public class ButtonToTransitionLVL : MonoBehaviour
     public void LoadLevels(int LevelIndex)
     {
         Time.timeScale = 1;
-        SaveLoadManager.currentSaveData.maxLevelReached = System.Math.Max(SaveLoadManager.currentSaveData.maxLevelReached, LevelIndex - 1);
-        SaveLoadManager.SaveData();
+        SaveLoadManager.UpdateData(LevelIndex-1);
         SceneManager.LoadScene(LevelIndex);
     }
 

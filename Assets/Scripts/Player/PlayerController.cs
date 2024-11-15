@@ -110,7 +110,8 @@ public class PlayerController: MonoBehaviour
     {
         if (transform.position.y <= -10)
         {
-            transform.position = startPosition;
+            Scene currentScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(currentScene.name);
         }
     }
     

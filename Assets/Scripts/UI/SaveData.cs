@@ -4,6 +4,6 @@ using System.IO;
 [System.Serializable]
 public class SaveData
 {
-    public int maxLevelReached;
+    public int maxLevelReached = 0;
     public SaveData() { }
 }

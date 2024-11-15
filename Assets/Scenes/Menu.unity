@@ -214,18 +214,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ButtonToTransitionLVL, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &22759900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +399,7 @@ GameObject:
   - component: {fileID: 403623005}
   - component: {fileID: 403623008}
   m_Layer: 5
-  m_Name: LevelsButton
+  m_Name: ContinueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -902,9 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LEVELS
-
-'
+  m_text: CONTINUE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 417f50681c599b543a29919ce1819a72, type: 2}
   m_sharedMaterial: {fileID: -4147572731115103544, guid: 417f50681c599b543a29919ce1819a72, type: 2}
@@ -997,7 +983,7 @@ GameObject:
   - component: {fileID: 793510867}
   - component: {fileID: 793510870}
   m_Layer: 5
-  m_Name: StartButton
+  m_Name: NewGameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1066,7 +1052,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 793510868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1376223925}
+        m_TargetAssemblyTypeName: SaveLoadManager, Assembly-CSharp
+        m_MethodName: NewData
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1272011065}
+        m_TargetAssemblyTypeName: ButtonToTransitionLVL, Assembly-CSharp
+        m_MethodName: LoadLevels
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &793510868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,6 +2281,7 @@ GameObject:
   - component: {fileID: 1376223922}
   - component: {fileID: 1376223921}
   - component: {fileID: 1376223925}
+  - component: {fileID: 1376223926}
   m_Layer: 5
   m_Name: Menu (canvas)
   m_TagString: Untagged
@@ -2376,6 +2387,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e5b8e6549f5834786ebfecb2fb7203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1376223926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376223920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea88d919ae28ba4b8f9aceebecbe156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitButton: {fileID: 1849901479}
 --- !u!1 &1462816772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,7 +2926,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1849901480}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1376223926}
+        m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1849901480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3153,7 +3189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5461049016168953647, guid: 4ead193498087384ebb1e0aefe9076d4, type: 3}
+  m_Sprite: {fileID: -5461049016168953647, guid: 435c5d4a04f64d24faf679d70b77f58c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
