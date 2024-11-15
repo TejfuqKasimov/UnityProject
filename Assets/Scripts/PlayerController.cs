@@ -6,7 +6,6 @@ using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 
 // Code from practice lesson with modifications
-[RequireComponent(typeof(Rigidbody2D), typeof(CollisionTouchCheck))]
 public class PlayerController: MonoBehaviour
 {
 
