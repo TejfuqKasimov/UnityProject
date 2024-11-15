@@ -93,9 +93,16 @@ public class PlayerController: MonoBehaviour
     // checker for player "death"
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Bullet"))
+        if (collision.CompareTag("Enemy"))
         {
             PlayerDead();
+        }
+        if (collision.CompareTag("Bullet"))
+        {
+            if (collision.GetComponent<BulletController>().getDam())
+            {
+                PlayerDead();
+            }
         }
     }
     
@@ -136,16 +143,14 @@ public class PlayerController: MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(rb.linearVelocity.y);
-        Debug.Log(string.Format( " Jump  {0}",isJumping));
         anim.SetBool("Alive", Alive);
         if (Alive)
         {
             Move();
             IsJumping();
             Reverse();
-            PlayerFalls();    
         }
+        PlayerFalls();
         PlayerResurection();
     }
 }

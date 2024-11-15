@@ -12,10 +12,10 @@ public class EnemyController : MonoBehaviour
     public int frequency = 10;         // how frequently
     public float rangeWalking = 10;    // how far horizontal
     public float rangeFlying = 10;     // how far vertical
-    private int directionHor = 1;
-    bool IsFasingRight;                // checker for reverse
+    private float directionHor=1;
+    bool IsFasingRight = true;                // checker for reverse
     SpriteRenderer m_SpriteRenderer;   // for reversing while move
-    private int directionVert = 1; 
+    private float directionVert=1; 
     public bool isSaw = false;
     [Range(0, 2)]
     public int isVertical = 0;
@@ -35,40 +35,55 @@ public class EnemyController : MonoBehaviour
     }
     void Reverse()
     {
-        if (!IsFasingRight && directionHor < 0)
+        if (speed > 0)
         {
-            IsFasingRight = true;
+            if (!IsFasingRight && directionHor < 0)
+            {
+                IsFasingRight = true;
+            }
+            else if (IsFasingRight && directionHor > 0)
+            {
+                IsFasingRight = false;
+            }
+            m_SpriteRenderer.flipX = IsFasingRight;
         }
-        else if (IsFasingRight && directionHor > 0)
+        else
         {
-            IsFasingRight = false;
+            if (!IsFasingRight && directionHor > 0)
+            {
+                IsFasingRight = true;
+            }
+            else if (IsFasingRight && directionHor < 0)
+            {
+                IsFasingRight = false;
+            }
+            m_SpriteRenderer.flipX = IsFasingRight;
         }
-        m_SpriteRenderer.flipX = IsFasingRight;
     }
     void MoveHorizontal()
     {
         Debug.Log(directionHor);
         transform.position += directionHor * Vector3.right * speed * Time.deltaTime;
-        if (transform.position.x - startPosition.x >= (rangeWalking / 2))
+        if ((transform.position.x - startPosition.x) >= (rangeWalking / 2))
         {
-            directionHor = -1;
+            directionHor = -speed/Mathf.Abs(speed);
         }
-        if (transform.position.x - startPosition.x <= (-1) * (rangeWalking / 2))
+        if ((transform.position.x - startPosition.x) <= (-1) * (rangeWalking / 2))
         {
-            directionHor = 1;
+            directionHor =  speed / Mathf.Abs(speed);
         }
     }
 
     void MoveVertical()
     {
         transform.position += directionVert * Vector3.up * speed * Time.deltaTime;
-        if (transform.position.y - startPosition.y >= (rangeFlying / 2))
+        if ((transform.position.y - startPosition.y) >= (rangeFlying / 2))
         {
-            directionVert = -1;
+            directionVert = -speed / Mathf.Abs(speed);
         }
-        if (transform.position.y - startPosition.y <= (-1) * (rangeFlying / 2))
+        if ((transform.position.y - startPosition.y) <= (-1) * (rangeFlying / 2))
         {
-            directionVert = 1;
+            directionVert = speed / Mathf.Abs(speed);
         }
     }
 
@@ -96,6 +111,7 @@ public class EnemyController : MonoBehaviour
             if (isVertical == 0)
             {
                 MoveHorizontal();
+                Reverse();
             }
             if (isVertical == 1)
             {
@@ -104,6 +120,7 @@ public class EnemyController : MonoBehaviour
             if (isVertical == 2)
             {
                 MoveHorizontal();
+                Reverse();
                 MoveVertical();
             }
         }
