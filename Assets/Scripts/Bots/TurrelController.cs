@@ -35,7 +35,7 @@ public class TurrelController : MonoBehaviour
 
     void Awake()
     {
-        bulletPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Bullet.prefab"); //Подтягивание префаба для пули
+        bulletPrefab = Resources.Load<GameObject>("Bullet");
         bulletSize = bulletPrefab.GetComponent<Renderer>().bounds.size;
 
         player = GameObject.FindGameObjectWithTag("Player").transform;

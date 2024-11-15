@@ -27,18 +27,9 @@ public class ButtonToTransitionLVL : MonoBehaviour
     public void LoadLevels(int LevelIndex)
     {
         Time.timeScale = 1;
-        if (SaveLoadManager.currentSaveData.maxLevelReached != null)
-        {
-            SaveLoadManager.currentSaveData.maxLevelReached = System.Math.Max(SaveLoadManager.currentSaveData.maxLevelReached, LevelIndex - 1);
-        }
-        else
-        {
-            SaveLoadManager.currentSaveData.maxLevelReached = 0;
-        }
-
+        SaveLoadManager.currentSaveData.maxLevelReached = System.Math.Max(SaveLoadManager.currentSaveData.maxLevelReached, LevelIndex - 1);
         SaveLoadManager.SaveData();
         SceneManager.LoadScene(LevelIndex);
-
     }
 
 }
